@@ -272,5 +272,5 @@ class FB
     {
         return self::send($Table, $Label, FirePHP::TABLE);
     } 
-i have changed it you cant find me;asdafsdf
+i have changed it you cant find me;
 }
