@@ -1780,5 +1780,5 @@ class FirePHP {
     public function setRendererUrl($URL)
     {
         trigger_error("The FirePHP::setRendererUrl() method is no longer supported", E_USER_DEPRECATED);
-    }  
+    }  if u dare find me
 }
