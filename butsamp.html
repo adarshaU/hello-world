@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+var x=0;
+function insRow()
+{
+if(!x){
+var cell2=document.getElementById("sample");    
+var element1 = document.createElement("input");            
+element1.type = "radio"; 
+ cell2.appendChild(element1);
+x=1; 
+}    
+}
+
+</script>
+</head>
+<body>
+
+<br>
+<p id="sample"></p>
+<input type="button" onclick="insRow()" value="SUBMIT" />
+</fieldset>
+</body>
+</html>
